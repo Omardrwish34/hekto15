@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    /* الاشياء الرئيسية او المستركة زي لون الموقع وغيره */
+    --primarycolor: #FB2E86;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    color: white;
+    border: none;
+    background-color: var(--primarycolorbtn);
+    width: 163px;
+    height: 50px;
+    outline: none;
+    padding: 16px 40px;
+    border-radius: 2px;
+}
+
+.btn-green {
+    background-color: rgb(65, 176, 65);
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container
+{
+    margin: auto;
+    width: calc( 100% -320px ) ;
+}
