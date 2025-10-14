@@ -3,6 +3,17 @@
   
     padding: 47px 0;  
 }
+
+nav
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 25px;
+
+}
 .header ul
 {
     display: flex;
@@ -36,13 +47,78 @@
 }
 .search button
 {
+    background-color: var(--primarycolor);
     border: none;
     outline: none;
-    background-color: var(--primarycolor);
     padding: 3px 7px;
-   
+    
 }
 
+
+/* header end */
+footer
+{
+ background-color: #EEEFFB;
+}
+.footer a,.address-info
+{
+     color: var(--acolor);
+     font-size: 16px;
+}
+.footer .left-side
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: flex-start;
+}
+.adderss-info
+{
+    color: var(--acolor);
+}
+.email
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.email form
+{
+    border: 1px #E7E6EF solid;
+    width: 237px;
+    height: 31px;
+}
+.email button
+{
+    background-color: var(--primarycolor);
+    border: none;
+    outline: none;
+    padding: 5px 6px 8px 10px;
+   
+}
+.email  input
+{
+    border: none;
+    outline: none;
+    padding: 0px 0px 3px 7px;
+}
+/* right side footer */
+.right-side
+{ 
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.footer-item
+{    
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    width: calc ( (100% - 30px) / 3 );
+}
 @media screen and (min-width: 0) and (max-width: 744px) 
 {
     .header .search

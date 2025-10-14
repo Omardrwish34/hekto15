@@ -4,13 +4,22 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 html {
     /* الاشياء الرئيسية او المستركة زي لون الموقع وغيره */
     --primarycolor: #FB2E86;
-
+    --acolor: #8A8FB9;
+}
+a
+{
+            width: fit-content;
+            text-decoration: none;
+            text-align: left;
 }
 
+.text-white
+{
+    color: #fff;
+}
 a {
     text-decoration: none;
     color: black;
@@ -20,29 +29,62 @@ ul {
     list-style-type: none;
 }
 
-.btn {
+.btn 
+{
+    background-color: var(--primarycolor);
     color: white;
     border: none;
-    background-color: var(--primarycolorbtn);
-    width: 163px;
-    height: 50px;
+    width: 46px;
+    height: 35px;
     outline: none;
     padding: 16px 40px;
-    border-radius: 2px;
-}
-
+    border-radius: 2px;}
 .btn-green {
     background-color: rgb(65, 176, 65);
 }
 .row
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 46px;
 }
 .container
 {
     margin: auto;
-    width: calc( 100% -320px ) ;
+    width: calc( 100% - 80px ) ;
+}
+.col-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-flex
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:left;
+    align-items:last baseline;
+}
+.list-gap
+{
+    gap: 23px;
+}
+.gap-2
+{
+    gap: 10px;
+}
+.gap-3
+{
+    gap: 15px;
+}
+.gap-4
+{
+    gap: 20px;
+}
+.gap-5
+{
+    gap: 25px;
 }
