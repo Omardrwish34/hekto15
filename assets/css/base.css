@@ -4,10 +4,32 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html {
+html
+ {
     /* الاشياء الرئيسية او المستركة زي لون الموقع وغيره */
     --primarycolor: #FB2E86;
     --acolor: #8A8FB9;
+    --blue:#2F1AC4;
+    --white:#fff;
+    --bluetext:#151875;
+    --besqiue:#FFEAC1;
+    
+}
+.textprimary
+{
+    color: var(--primarycolor);
+}
+.text-blue
+{
+    color: var(--bluetext);
+}
+.text-white
+{
+    color: #fff;
+}
+.bluebackground
+{
+    background-color: var(--blue);
 }
 a
 { 
@@ -15,10 +37,6 @@ a
             text-align: left;
 }
 
-.text-white
-{
-    color: #fff;
-}
 
 ul 
 {

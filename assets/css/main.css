@@ -73,19 +73,46 @@ nav {
 
 /* prouducts start */
 .featured-prouduct
-{
-
+{ 
     padding: 50px 0;
-}
-.featured-prouduct .prouduct
-{
-        border-radius: 8px;
 }
 .featured-prouduct .row
 {
     justify-content: flex-start;
     gap: 15px;
 }
+.featured-prouduct .prouduct
+{       position: relative;
+    border-radius: 8px;
+}
+.prouduct .badge-sale
+{
+
+    position: absolute;
+    left: -11px;
+    top: -35px;
+}
+.featured-prouduct .prouduct .sale-badge
+{
+    width: 110px;
+}
+.featured-prouduct .prouduct:hover .prouducts-details
+{
+        border-radius: 5px;
+        background-color:#2F1AC4 ;
+        transition-duration: 1s;
+}
+.featured-prouduct .prouduct:hover .prouducts-details h3
+{   
+        transition-duration: 1s;
+        color: #fff;
+}
+.featured-prouduct .prouduct:hover .prouducts-details .prouduct-info
+{
+    transition-duration: 1s;
+        color: #fff;
+}
+
 .prouduct .img
 {
         padding: 10px;
@@ -122,6 +149,33 @@ nav {
 .prouduct .prouduct-info
 {
     gap: 5px;
+}
+.smallbutton
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 1px;
+    outline: none;
+    height: 5px;
+    width: 15px;
+    border-radius: 14px;
+}
+.color-one
+{
+        background-color: #05E6B7;
+}
+.color-two
+{
+    background-color: #F701A8;
+}
+.color-three
+{
+        background-color: #00009D;
+}
+.color-four
+{
+        background-color: var(--besqiue);
 }
 /* prouducts end */
 
