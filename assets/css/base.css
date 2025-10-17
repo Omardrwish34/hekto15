@@ -41,6 +41,7 @@ ul
 .row
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 70px;
@@ -84,6 +85,10 @@ ul
 }
 }
 
+.text-center
+{
+    text-align: center;
+}
 
 .col-flex
 {
