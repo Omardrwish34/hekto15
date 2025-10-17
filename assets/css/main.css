@@ -47,7 +47,48 @@ nav {
 }
 
 /* header end */
+/* hero start */
+.hero .row
+{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.hero
+{
+    padding: 50px 0;
+    position: relative;
+    background-color:#F2F0FF ;
+}
+.herobtn
+{
+    padding: 10px 40px;
+    width: 165px;
+}
+.hero-content
+{
+    width: 50%;
+    gap: 25px 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    padding: 30px;
+}
+.hero .hero-lamp img
+{
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+}
+.hero .hero-lamp
+{
+    left: -23px;
+    top: 0;
+    position: absolute;
+}
 
+/* hero end */
 /* clients */
 .clients {
   padding: 50px 0;
@@ -82,7 +123,7 @@ nav {
     gap: 15px;
 }
 .featured-prouduct .prouduct
-{       position: relative;
+{      position: relative;
     border-radius: 8px;
 }
 .prouduct .badge-sale
@@ -135,16 +176,12 @@ nav {
     box-shadow: 0px 0px 25px #0000001a;
     /* same result
     flex : 1 0 270px 
-    grow shrink basisd*/
+    grow shrink basis*/
 }
 .prouduct .prouducts-details
 {
     padding :10px;
     gap: 10px;
-}
-.prouduct .prouducts-details .prouduct-info
-{
-
 }
 .prouduct .prouduct-info
 {
