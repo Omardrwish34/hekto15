@@ -13,11 +13,17 @@ html {
   --white: #fff;
   --bluetext: #151875;
   --besqiue: #ffeac1;
-    --h2color:#1A0B5B;
+  --h2color: #1a0b5b;
 }
-.h2color
-{
-    color: var(--h2color);
+.h2color {
+  color: var(--h2color);
+}
+.oldprice {
+  text-decoration: line-through;
+  color: red;
+}
+.underline {
+  text-decoration: underline;
 }
 .textprimary {
   color: var(--primarycolor);
@@ -49,17 +55,16 @@ ul {
   padding: 16px 40px;
   border-radius: 2px;
 }
-.btn-green
-{
-    display: none;
-    color: #fff;
-    position: absolute;
-    background-color: #08D15F;
-    text-align: center;
-    padding: 9px 4px;
-    top: 83%;
-    left: 32%;
-    width: 100px;
+.btn-green {
+  display: none;
+  color: #fff;
+  position: absolute;
+  background-color: #08d15f;
+  text-align: center;
+  padding: 9px 4px;
+  top: 83%;
+  left: 32%;
+  width: 100px;
 }
 .row {
   display: flex;
@@ -98,12 +103,11 @@ ul {
   text-align: center;
 }
 
-.d-flex
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .col-flex {
   display: flex;
@@ -130,8 +134,30 @@ ul {
   gap: 20px;
 }
 .gap-5 {
-  gap: 25px;
+  gap: 24px;
 }
 .gap-33 {
   gap: 33px;
+}
+.font-size40 {
+  font-size: 40px;
+}
+.font-size13 {
+  font-size: 13px;
+}
+.background-white {
+  background-color: #fff;
+}
+.background-gray
+{
+  background-color: #EEEFFB;
+}
+.widht-height{
+  width: 260px;
+  height: 220px;
+}
+.border
+{
+    border: 2px black solid;
+
 }
